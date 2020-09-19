@@ -39,8 +39,9 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# R markdown and xaringan outputs
-*.Rmd
+# R markdown and xaringan files
+FOBI_slides_IFOW2020.Rmd
 libs/
 FOBI_slides_IFOW2020_files/
+mycss.css
 
