@@ -1,7 +1,7 @@
 ---
-title: "FOBI"
-subtitle: "An ontology to represent food intake data and associate it with metabolomic data"
-author: "Pol Castellano Escuder"
+title: "**FOBI**"
+subtitle: "**An ontology to represent food intake data and associate it with metabolomic data**"
+author: "**<u>Pol Castellano Escuder</u>**, Raúl González Domínguez, David S. Wishart, Cristina Andrés Lacueva and Alex Sánchez Pla"
 date: "Sep 23, 2020"
 output:
   xaringan::moon_reader:
@@ -14,7 +14,7 @@ output:
     includes:
       in_header: header.html
 ---
-  
+
 # Context and Aim
   
 ## Context

@@ -76,9 +76,9 @@ body {
 .title-slide {
   background-color: #FFFFFF;
   border-top: 80px solid #FFFFFF;
-  /*background-image: url("pix/logo.png");*/
-  background-position: 90% 1%; 
-  background-size: 20%;
+  background-image: url("pix/logo.png");
+  background-position: 80% 1%; 
+  background-size: 70%;
 }
 
 .title-slide > h1  {
@@ -351,5 +351,4 @@ blockquote {
       left: 15px;
       bottom: 1.5px;
     }
-    
-    
+
