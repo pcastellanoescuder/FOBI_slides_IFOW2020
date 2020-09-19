@@ -19,7 +19,7 @@
 
 # RStudio files
 .Rproj.user/
-.Rproj
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -40,7 +40,7 @@ vignettes/*.pdf
 .Renviron
 
 # R markdown and xaringan outputs
-.Rmd
+*.Rmd
 libs/
 FOBI_slides_IFOW2020_files/
 
