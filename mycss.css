@@ -36,7 +36,7 @@ body {
 
 .remark-slide-content {
   background-color: #FFFFFF;
-  border-top: 80px solid #23373B;
+  border-top: 80px solid #336B87;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
@@ -48,7 +48,7 @@ body {
 }
 
 .inverse {
-  background-color: #23373B;
+  background-color: #336B87;
   text-shadow: none;
 }
 
@@ -325,18 +325,8 @@ th, td { padding: 5px; }
   }
 }
 
-/*FOOTER*/
-/*
-div.my-footer {
-content: "";
-    position: absolute;
-    bottom: 1px;
-    right:  75px;
-    height: 50px;
-    width: 250px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url("pix/footer.png");
+a, a > code {
+  color: #EA8620; /*default: rgb(249, 38, 114); || sets color of links */
+  text-decoration: none; /* turns off background coloring of links */
 }
-*/
 

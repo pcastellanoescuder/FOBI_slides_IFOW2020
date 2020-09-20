@@ -15,34 +15,75 @@ output:
       in_header: header.html
 ---
 
-# Context and Aim
-  
-## Context
-  
-  - Heterogeneus nutritional data (FOODON...)
-  - Difficult association of nutritional data with other types of data
-  - **Non clear relationships between foods and metabolites**
-  
-## Aim
-  
-  - Create an ontology to describe the many complex relationships between diet derived metabolites and foods in a consistent and homogeneous way
+# Metabolomics
+
+_"Metabolomics is the identification and quantification of the small molecule metabolic products (the metabolome) of a biological system. Mass spectrometry and NMR spectroscopy are the techniques most often used for metabolome profiling."_<sub>*</sub>
+
+<img src="pix/metabolomics.png">
+
+.footnote[
+
+*https://www.nature.com/subjects/metabolomics
+   
+]
 
 ---
 
-# Results
+# The Food Metabolome
 
-## FOBI (Food-Biomarker Ontology)
+_"The food metabolome is the part of the human metabolome directly derived from the digestion and biotransformation of foods and their constituents. With over 25,000 compounds known in various foods, the food metabolome is extremely complex, with a composition varying widely according to the diet."_ <sub>*</sub>
+
+.center[<img src="pix/foodmetabolome.png" width="550" height="300">]
+
+.footnote[
+
+*http://foodmetabolome.org/metabolome
+   
+]
+
+---
+
+# Our Scenario
+
+  - Heterogeneus nutritional data (semantic problem) -> **FoodOn**
+  - Difficult association of nutritional data with other types of data (semantic and quantitative problem)
+  - **Unclear relationships between foods and metabolites**    
+  
+.center[<img src="pix/foods&metabolites.png">]
+
+---
+
+# Aims
+
+  - Clearly define the many complex relationships between diet derived **metabolites** and **foods** in a consistent and homogeneous way
+  - Annotation of terms using a consistent and standardized nomenclature 
+    - FoodOn 
+    - ChEBI
+  - Propose a consistent starting point for nutrimetabolomic studies 
+    - Design
+    - Validation
+
+---
+
+# FOBI (Food-Biomarker Ontology)
+
+<a href="https://github.com/pcastellanoescuder/FoodBiomarkerOntology"><i class="fab fa-github"></i>&nbsp; https://github.com/pcastellanoescuder/FoodBiomarkerOntology</a><br>
+
+.pull-left[
+
+## Metrics 
 
   - 2 sub-ontologies
   - 1197 terms
   - 4 different properties
   - 13 food top-level classes
   - 11 biomarker top-level classes
-  - More than 4700 logical axioms
+  - More than 4700 relationships
   - Part of **OBOFoundry project** [http://purl.obolibrary.org/obo/fobi.owl](http://purl.obolibrary.org/obo/fobi.owl)
-  - FOBI IDs already indexed into the [HMDB](https://hmdb.ca) (Human Metabolome Database) and [FooDB](https://foodb.ca) (Food Database)
+  - FOBI IDs are indexed into the [HMDB](https://hmdb.ca) (Human Metabolome Database) and [FooDB](https://foodb.ca) (Food Database)
+]
 
-<a href="https://github.com/pcastellanoescuder/FoodBiomarkerOntology"><i class="fab fa-github"></i>&nbsp; https://github.com/pcastellanoescuder/FoodBiomarkerOntology</a><br>
+.pull-right[<img src="pix/200630_FOBI.png" width="800">]      
 
 ---
 
@@ -69,7 +110,7 @@ output:
   
 # FOBI Architecture
   
-## "apple" example
+## FOODON:00002473 -> "apple (whole)"
   
 .center[
 
@@ -80,18 +121,12 @@ output:
 ---
   
 # Applications
-  
-  (among many other applications...)
 
 1) **fobitools** (beta version): R Package to use and interact with FOBI [(https://github.com/pcastellanoescuder/fobitools)](https://github.com/pcastellanoescuder/fobitools)
 
-2) **FOBI Visualization tool**: [(https://polcastellano.shinyapps.io/FOBI_Visualization_Tool)](https://polcastellano.shinyapps.io/FOBI_Visualization_Tool)
+2) **FOBI Visualization Tool**: [(https://polcastellano.shinyapps.io/FOBI_Visualization_Tool)](https://polcastellano.shinyapps.io/FOBI_Visualization_Tool)
 
-.center[
-  
-<img src="pix/visualization.png" width="600">
-    
-]
+.center[<img src="pix/visualization.png" width="600">]
 
 ---
   
@@ -105,7 +140,7 @@ output:
 
   - To the [Statistics and Bioinformatics Research Group](https://sites.google.com/view/estbioinfo/home) and [Biomarkers and Nutritional & Food Metabolomics Research Group](http://www.nutrimetabolomics.com/) from [University of Barcelona](https://www.ub.edu/web/ub/en/index.html?)
 
-  - To **Damion Dooley** for his help on the integration of FOODON and CHEBI
+  - To **Damion Dooley** for his help on the integration of FoodOn and ChEBI
 
 ---
 
