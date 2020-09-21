@@ -68,17 +68,19 @@ _"The food metabolome is the part of the human metabolome directly derived from 
 # Aims
 
   .font130[
-  - Clearly define the many complex relationships between diet derived **metabolites** and **foods** in a consistent and homogeneous way
+  - Create an ontology that clearly defines the many complex relationships between **diet derived metabolites** and **foods** in a consistent and homogeneous way
   ]
 
 --
 
   .font130[
-  - Annotation of terms using a consistent and standardized nomenclature 
+  - Reuse previous existing terms to maintain a consistent and standardized nomenclature (OBOFoundry)
     - FoodOn 
     - ChEBI
   ]
-  
+
+.center2[<img src="http://www.obofoundry.org/images/foundrylogo.png" width="100">]    
+
 --
 
   .font130[
