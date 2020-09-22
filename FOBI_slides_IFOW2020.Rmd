@@ -186,3 +186,7 @@ class: inverse, center, middle
 <a href="https://github.com/pcastellanoescuder"><i class="fab fa-github"></i>&nbsp; @pcastellanoescuder</a><br>
 <a href="https://www.ub.edu/web/ub/en/index.html?"><i class="fas fa-map-marker-alt"></i>&nbsp; University of Barcelona</a>
 
+```{r, echo = FALSE, eval = FALSE}
+pagedown::chrome_print("FOBI_slides_IFOW2020.Rmd")
+```
+
