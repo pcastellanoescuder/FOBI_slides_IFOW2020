@@ -48,14 +48,10 @@ _"The food metabolome is the part of the human metabolome directly derived from 
   .font130[
   - Heterogeneus nutritional data (<u>semantic problem</u>) -> **FoodOn**
   ]    
-  
---
 
   .font130[
   - Difficult association of nutritional data with other types of data (<u>semantic and quantitative problem</u>)  
   ]
-
---
 
   .font130[
   - **Unclear relationships between foods and metabolites**     
@@ -71,8 +67,6 @@ _"The food metabolome is the part of the human metabolome directly derived from 
   - Create an ontology that clearly defines the many complex relationships between **diet derived metabolites** and **foods** in a consistent and homogeneous way
   ]
 
---
-
   .font130[
   - Reuse previous existing terms to maintain a consistent and standardized nomenclature (OBOFoundry)
     - FoodOn 
@@ -80,8 +74,6 @@ _"The food metabolome is the part of the human metabolome directly derived from 
   ]
 
 .center2[<img src="http://www.obofoundry.org/images/foundrylogo.png" width="100">]    
-
---
 
   .font130[
   - Propose a consistent starting point for nutrimetabolomic studies 
@@ -121,15 +113,11 @@ _"The food metabolome is the part of the human metabolome directly derived from 
   - Most part of the structure adopted from FooDB
   - Around 350 terms (306 adopted from FOODON) -> ~ 87%
 
---
-
 ## Biomarker sub-ontology
 
   - 11 biomarker top-level classes
   - Structure adopted from ChemFOnt (chemical functional ontology)
   - Around 850 terms (159 adopted from CHEBI) -> ~ 19%
-
---
 
 ## Properties
 
